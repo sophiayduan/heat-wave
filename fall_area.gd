@@ -1,5 +1,6 @@
 extends Area2D
 
+signal fell_off_map
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
@@ -13,4 +14,5 @@ func _process(delta: float) -> void:
 
 func _on_body_entered(body: Node2D) -> void:
 	if (body.name == "Player"):
-		get_tree().reload_current_scene() # Replace with function body.
+		fell_off_map.emit()
+		 #global_position# Replace with function body.

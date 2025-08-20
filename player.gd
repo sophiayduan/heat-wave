@@ -3,7 +3,10 @@ extends CharacterBody2D
 
 const SPEED = 150.0
 const JUMP_VELOCITY = -300.0
+var startPos: Vector2 #store starting position
 
+func _ready():
+	startPos = global_position
 
 func _physics_process(delta: float) -> void:
 	# Add the gravity.
@@ -26,3 +29,7 @@ func _physics_process(delta: float) -> void:
 		$AnimationPlayer.play('idle') # plays 'idle' animation
 
 	move_and_slide()
+
+
+func _on_area_2d_fell_off_map() -> void:
+	global_position = startPos
