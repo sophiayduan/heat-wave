@@ -1,6 +1,6 @@
-[gd_scene load_steps=14 format=3 uid="uid://bscwtsahbvgkd"]
+[gd_scene load_steps=14 format=3 uid="uid://d3u171xwwrxf4"]
 
-[ext_resource type="Script" uid="uid://b7kjhc0gjeddc" path="res://enemy.gd" id="1_4gyqm"]
+[ext_resource type="Script" path="res://enemy.gd" id="1_4gyqm"]
 [ext_resource type="Texture2D" uid="uid://cbvjfh4f8yupr" path="res://assets/FreePixelMob/Assets/FreePixelMob/SlimeA.png" id="1_7k104"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_4gyqm"]
