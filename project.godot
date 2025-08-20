@@ -15,10 +15,6 @@ run/main_scene="uid://chagj2rnd05cd"
 config/features=PackedStringArray("4.4", "GL Compatibility")
 config/icon="res://icon.svg"
 
-[autoload]
-
-GameManager="*res://game_manager.gd"
-
 [dotnet]
 
 project/assembly_name="heat_wave"

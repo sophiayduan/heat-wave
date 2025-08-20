@@ -18,7 +18,7 @@ func _on_area_2d_body_entered(body: Node2D) -> void:
 		#print(y_delta)
 		if (y_delta < 502):
 			print('side')
-			GameManager.decrease_health()
+			get_node("/root/Node").decrease_health()
 		elif (y_delta > 519):
 			print('above')
 			
