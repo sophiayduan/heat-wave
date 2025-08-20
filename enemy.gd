@@ -15,8 +15,8 @@ func _on_area_2d_body_entered(body: Node2D) -> void:
 	print(body.name)
 	if (body.name == "Player"):
 		var y_delta = position.y - body.position.y
-		#print(y_delta)
-		if (y_delta < 502):
+		print(y_delta)
+		if (y_delta < 506):
 			print('side')
 			get_node("/root/Node").decrease_health()
 		elif (y_delta > 519):
