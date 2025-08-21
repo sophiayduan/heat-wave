@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="heat_wave"
-run/main_scene="uid://cue8cafn02tfl"
+run/main_scene="uid://chagj2rnd05cd"
 config/features=PackedStringArray("4.4", "GL Compatibility")
 config/icon="res://icon.svg"
 
